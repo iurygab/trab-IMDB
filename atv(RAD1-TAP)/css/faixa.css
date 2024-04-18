@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=swap");
+
+* {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    list-style: none;
+
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(3, 37, 65);
+    height: 64px;
+    z-index: 50;
+    transition: top .2s linear;
+    justify-content: space-around;
+
+}
+
+
+
+.links {
+    display: flex;
+    overflow: visible;
+    align-items: center;
+    height: 64px;
+
+}
+
+
+.links a.logo {
+    margin-left: 50px;
+
+
+}
+
+header .itens {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    margin-left: 50px;
+
+}
+
+header ul {
+    margin: 20px;
+    padding: 0;
+}
+
+.itens li {
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0px 15px;
+    height: 64px;
+    padding: 8px;
+
+}
+
+.itens li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    height: 64px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    overflow: visible;
+    align-items: center;
+    height: 64px;
+    margin-right: 50px;
+}
+
+.icons .itens .pt {
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    padding: 2px 3px;
+    height: 23px;
+    border-radius: 3px;
+    border: 1.5px solid white;
+}
+
+.icons .itens .pt:hover {
+    color: rgb(3, 37, 65);
+    background-color: #fff;
+}
+
+.icons .itens #search {
+    background-image: url("https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-28-search-blue-177462d06db81ff2a02aa022c1c0be5ba4200d7bd3f51091ed9298980e3a26a1.svg");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+
+}
+
+#more {
+    background-image: url("https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-371-plus-white-0bac34f16124808a12ea863b4d9cc6e599dee7c0a80658cfe9ead26939e64517.svg");
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 10px;
+}
+
+
+main {
+    margin-top: 64px;
+}
+
+main>h1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-left: 50px;
+    padding: 20px 0px 0px 0px;
+}
+
+/*
+
+header {
+  width: 100%;
+  display: block;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  position: fixed;
+  background-color: rgb(3, 37, 65);
+}
+
+.display_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 64px;
+}
+
+ .display_nav .links {
+  display: flex;
+  justify-content: space-around;
+  
+  overflow: visible;
+  align-items: center;
+  height: 64px;
+}
+.logo a{
+  margin-left: 20px;
+  width: 154px;
+  height: 20px;
+}
+
+.itens ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.itens > li {
+  list-style: none;
+  height: 40px;
+}
+
+.itens > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.display_nav .icons {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  overflow: visible;
+  align-items: center;
+}
+
+*/

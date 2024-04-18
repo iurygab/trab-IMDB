@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Popular Movies</title>
+
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/body.css" />
+  <link rel="stylesheet" href="css/faixa.css" />
+  <link rel="stylesheet" href="css/cards.css" />
+</head>
+
+<body>
+  <header>
+    <div class="links">
+      <a href="#">
+        <img class="logo"
+          src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+          alt="TMDB Logo" width="154" height="20" />
+      </a>
+      <div class="content">
+        <ul class="itens">
+          <li>
+            <a href="#">Filmes</a>
+          </li>
+          <li><a href="#">Séries</a>
+          </li>
+          <li>
+            <a href="#">Pessoas</a>
+          </li>
+          <li>
+            <a href="#">Mais</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="icons">
+      <ul class="itens">
+        <li>
+          <a href="#" id="more"></a>
+        </li>
+        <li>
+          <a href="#" class="pt">PT</a>
+        </li>
+        <li>
+          <a href="#">Iniciar Sessão</a>
+        </li>
+        <li>
+          <a href="#">Aderir ao TMDB</a>
+        </li>
+        <li>
+          <a href="#" id="search"></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+
+  <div class="titulo">
+    <h1>Filmes Populares</h1>
+  </div>
+
+  <section id="filmes">
+  </section>
+
+  <script src="js/ListMovies.js" type="module"></script>
+  <script src="js/MovieCards.js" type="module"></script>
+</body>
+
+</html>
